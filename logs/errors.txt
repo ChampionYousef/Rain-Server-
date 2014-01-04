@@ -1,0 +1,192 @@
+
+Error: ENOENT, no such file or directory 'C:\Users\computer\Documents\GitHub\Pokemon-Showdown\config\coins.csv'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.exports.commands.atm (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\commands.js:224:31)
+    at Object.exports.parse (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\command-parser.js:201:31)
+    at ChatRoom.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\rooms.js:1475:27)
+    at User.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:1257:9)
+    at Object.socketReceive (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:197:13)
+    at Worker.<anonymous> (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\sockets.js:42:11)
+    at Worker.EventEmitter.emit (events.js:98:17)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+
+Additional information:
+user = ifaze
+ip = 127.0.0.1
+roomid = 
+message = |!atm
+
+Error: ENOENT, no such file or directory 'C:\Users\computer\Documents\GitHub\Pokemon-Showdown\config\coins.csv'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.exports.commands.atm (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\commands.js:224:31)
+    at Object.exports.parse (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\command-parser.js:201:31)
+    at ChatRoom.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\rooms.js:1475:27)
+    at User.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:1257:9)
+    at Object.socketReceive (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:197:13)
+    at Worker.<anonymous> (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\sockets.js:42:11)
+    at Worker.EventEmitter.emit (events.js:98:17)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+
+Additional information:
+user = ifaze
+ip = 127.0.0.1
+roomid = 
+message = |!atm
+
+Error: ENOENT, no such file or directory 'C:\Users\computer\Documents\GitHub\Pokemon-Showdown\config\coins.csv'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.exports.commands.atm (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\commands.js:224:31)
+    at Object.exports.parse (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\command-parser.js:201:31)
+    at ChatRoom.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\rooms.js:1475:27)
+    at User.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:1257:9)
+    at Object.socketReceive (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:197:13)
+    at Worker.<anonymous> (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\sockets.js:42:11)
+    at Worker.EventEmitter.emit (events.js:98:17)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+
+Additional information:
+user = ifaze
+ip = 127.0.0.1
+roomid = 
+message = |!atm
+
+Error: ENOENT, no such file or directory 'C:\Users\computer\Documents\GitHub\Pokemon-Showdown\config\coins.csv'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.exports.commands.atm (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\commands.js:224:31)
+    at Object.exports.parse (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\command-parser.js:201:31)
+    at ChatRoom.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\rooms.js:1475:27)
+    at User.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:1257:9)
+    at Object.socketReceive (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:197:13)
+    at Worker.<anonymous> (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\sockets.js:42:11)
+    at Worker.EventEmitter.emit (events.js:98:17)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+
+Additional information:
+user = ifaze
+ip = 127.0.0.1
+roomid = 
+message = |!atm
+
+Error: ENOENT, no such file or directory 'C:\Users\computer\Documents\GitHub\Pokemon-Showdown\config\coins.csv'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.exports.commands.atm (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\commands.js:224:31)
+    at Object.exports.parse (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\command-parser.js:201:31)
+    at ChatRoom.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\rooms.js:1475:27)
+    at User.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:1257:9)
+    at Object.socketReceive (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:197:13)
+    at Worker.<anonymous> (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\sockets.js:42:11)
+    at Worker.EventEmitter.emit (events.js:98:17)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+
+Additional information:
+user = ifaze
+ip = 127.0.0.1
+roomid = 
+message = |/atm
+
+TypeError: Cannot read property 'prevNames' of null
+    at Object.tourStuff.joinable (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\tour.js:167:101)
+    at Object.cmds.j (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\tour.js:599:26)
+    at Object.exports.parse (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\command-parser.js:201:31)
+    at ChatRoom.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\rooms.js:1475:27)
+    at User.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:1257:9)
+    at Object.socketReceive (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:197:13)
+    at Worker.<anonymous> (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\sockets.js:42:11)
+    at Worker.EventEmitter.emit (events.js:98:17)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+
+Additional information:
+user = ifaze
+ip = 127.0.0.1
+roomid = 
+message = |/j
+
+TypeError: Cannot read property 'prevNames' of null
+    at Object.tourStuff.joinable (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\tour.js:167:101)
+    at Object.cmds.j (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\tour.js:599:26)
+    at Object.exports.parse (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\command-parser.js:201:31)
+    at ChatRoom.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\rooms.js:1475:27)
+    at User.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:1257:9)
+    at Object.socketReceive (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:197:13)
+    at Worker.<anonymous> (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\sockets.js:42:11)
+    at Worker.EventEmitter.emit (events.js:98:17)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+
+Additional information:
+user = ifaze
+ip = 127.0.0.1
+roomid = 
+message = |/j
+
+TypeError: Cannot read property 'prevNames' of null
+    at Object.tourStuff.joinable (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\tour.js:167:101)
+    at Object.cmds.j (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\tour.js:599:26)
+    at Object.exports.parse (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\command-parser.js:201:31)
+    at ChatRoom.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\rooms.js:1475:27)
+    at User.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:1257:9)
+    at Object.socketReceive (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:197:13)
+    at Worker.<anonymous> (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\sockets.js:42:11)
+    at Worker.EventEmitter.emit (events.js:98:17)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+
+Additional information:
+user = ifaze
+ip = 127.0.0.1
+roomid = 
+message = |/j
+
+TypeError: Cannot read property 'prevNames' of null
+    at Object.tourStuff.joinable (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\tour.js:167:101)
+    at Object.cmds.j (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\tour.js:599:26)
+    at Object.exports.parse (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\command-parser.js:201:31)
+    at ChatRoom.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\rooms.js:1475:27)
+    at User.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:1257:9)
+    at Object.socketReceive (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:197:13)
+    at Worker.<anonymous> (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\sockets.js:42:11)
+    at Worker.EventEmitter.emit (events.js:98:17)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+
+Additional information:
+user = ifaze
+ip = 127.0.0.1
+roomid = 
+message = |/j
+
+TypeError: Cannot read property 'prevNames' of null
+    at Object.tourStuff.joinable (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\tour.js:167:101)
+    at Object.cmds.j (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\tour.js:599:26)
+    at Object.exports.parse (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\command-parser.js:201:31)
+    at ChatRoom.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\rooms.js:1475:27)
+    at User.chat (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:1257:9)
+    at Object.socketReceive (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\users.js:197:13)
+    at Worker.<anonymous> (C:\Users\computer\Documents\GitHub\Pokemon-Showdown\sockets.js:42:11)
+    at Worker.EventEmitter.emit (events.js:98:17)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at handleMessage (child_process.js:318:10)
+
+Additional information:
+user = ifaze
+ip = 127.0.0.1
+roomid = 
+message = |/j
+
+Error: write EINVAL - cannot write to IPC channel.
+    at errnoException (child_process.js:980:11)
+    at ChildProcess.target.send (child_process.js:455:16)
+    at Worker.send (cluster.js:401:21)
+    at sendInternalMessage (cluster.js:394:10)
+    at handleResponse (cluster.js:177:5)
+    at respond (cluster.js:192:5)
+    at Object.messageHandler.queryServer (cluster.js:242:5)
+    at handleMessage (cluster.js:197:32)
+    at ChildProcess.EventEmitter.emit (events.js:117:20)
+    at handleMessage (child_process.js:318:10)

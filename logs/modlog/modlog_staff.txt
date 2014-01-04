@@ -1,0 +1,3 @@
+[2014-01-04T00:50:42.208Z] (staff) iFaZe declared  <img scr=http://www.pkparaiso.com/imagenes/xy/sprites/animados/politoed.gif>
+[2014-01-04T00:50:57.035Z] (staff) iFaZe declared  <img scr=" http://www.pkparaiso.com/imagenes/xy/sprites/animados/politoed.gif">
+[2014-01-04T00:51:05.759Z] (staff) iFaZe declared  <img scr="http://www.pkparaiso.com/imagenes/xy/sprites/animados/politoed.gif">
