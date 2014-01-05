@@ -134,7 +134,7 @@ exports.herokuhack = false;
 // Your server *must* be registered in order for your custom avatars to be
 // displayed in the client.
 exports.customavatars = {
-      'ifaze' : 'lugia.gif', 'groan' : 'ho-oh.gif', 'critch552' : 'jirachi.gif', 'darknessreigns' : 'darkrai.gif', 'familyboy' : 'lucario-mega.gif', 'e4aknolan' : 'aknolan.png', 'champinkishz' : 'keldeo.gif'    
+      'ifaze' : 'lugia.gif', 'groan' : 'ho-oh.gif', 'critch552' : 'jirachi.gif', 'darknessreigns' : 'darkrai.gif', 'familyboy' : 'lucario-mega.gif', 'e4aknolan' : 'aknolan.png', 'champinkishz' : 'keldeo.gif', 'jolteon64' : 'jolteon.gif', 'checkm8t' : 'magikarp.gif'   
 }; 
 
 // appealurl - specify a URL containing information on how users can appeal
