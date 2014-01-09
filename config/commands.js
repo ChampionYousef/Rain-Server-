@@ -1120,7 +1120,7 @@ var commands = exports.commands = {
         
         tierpoll: 'tiervote',
         tiervote: function(target, room, user){
-                return this.parse('/poll Tournament Tier?,randombattle,inversebattles,oubeta,ubers,uu,ru,nu,lc,cap,cc1v1,oumonotype,1v1,gen6ou,gen6pokebankou,gen6monotype');
+                return this.parse('/poll Tournament Tier?, randombattle, cc1v1, 1v1, uu, nu, ru, lc, cap, gen5mono, gen6mono, pointscore, balanced hackmons, pokebank, gen5ou, doubles, random doubles, challenge cup, seasonal, c&e, metronome, sky battles, inverse');
         },
         
         gurl: function(target, room, user){
@@ -1218,7 +1218,127 @@ var commands = exports.commands = {
                 this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/phione.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/lugia.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/suicune.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/palkia.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/manaphy.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/keldeo.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/kyogre.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/politoed.gif"><br>Ace: Rain<br>The Legends Of Water And Rain All Came Together To Make This Server.');
                 
         },
+		
+		
+	 cithor: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/dragonite-5.gif"><br>Ace: Dragonite<br>Expect The Unexpected.');
+                
+        },
+		
+		 checkm8t: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/magikarp-2.gif"><br>Ace: Magikarp<br> Hide behind your legends cuz magikarp is coming to get cha.');
+                
+        },
 	
+	     rez: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/terrakion.gif"><br>Ace: Terrakion<br> You may think you have countered me, but think again. What do you see, NOTHING!');
+                
+        },
+		
+		dialga: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/dialga.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/giratina.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/palkia.gif"><br>Space Time Distorted World<br>');
+                
+        },
+		
+		palkia: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/dialga.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/giratina.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/palkia.gif"><br>Space Time Distorted World<br>');
+                
+        },
+		
+		giratina: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/dialga.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/giratina.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/palkia.gif"><br>Space Time Distorted World<br>');
+                
+        },
+		
+		kyogre: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/groudon.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/rayquaza.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/kyogre.gif"><br>Drought, Air Lock, Drizzle<br>');
+                
+        },
+		
+		groudon: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/groudon.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/rayquaza.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/kyogre.gif"><br>Drought, Air Lock, Drizzle<br>');
+                
+        },
+		
+		rayquaza: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/groudon.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/rayquaza.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/kyogre.gif"><br>Drought, Air Lock, Drizzle<br>');
+                
+        },
+		
+		zekrom: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/reshiram.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/kyurem.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/zekrom.gif"><br>Turboblaze, Pressure, Teravolt<br>');
+                
+        },
+		reshiram: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/reshiram.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/kyurem.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/zekrom.gif"><br>Turboblaze, Pressure, Teravolt<br>');
+                
+        },
+		kyurem: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/reshiram.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/kyurem.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/zekrom.gif"><br>Turboblaze, Pressure, Teravolt<br>');
+                
+        },	
+		hooh: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/lugia.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/ho-oh.gif"><br>Multiscale, Regenerator<br>');
+                
+        },
+        lugia: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/lugia.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/ho-oh.gif"><br>Multiscale, Regenerator<br>');
+                
+        },
+        regis: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/regirock.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/regice.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/registeel.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/regigigas.gif"><br><br>');
+                
+        },
+		terrakion: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/virizion.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/terrakion.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/keldeo.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/cobalion.gif"><br><br>');
+                
+        },	
+		keldeo: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/virizion.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/terrakion.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/keldeo.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/cobalion.gif"><br><br>');
+                
+        },	
+		cobalion: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/virizion.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/terrakion.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/keldeo.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/cobalion.gif"><br><br>');
+                
+        },	
+		
+		zapdos: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/moltres.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/zapdos.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/articuno.gif"><br><br>');
+                
+        },	
+		moltres: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/moltres.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/zapdos.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/articuno.gif"><br><br>');
+                
+        },	
+		articuno: function(target, room,user) {
+                if (!this.canBroadcast()) return;
+                this.sendReplyBox('<center><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/moltres.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/zapdos.gif"><img src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/articuno.gif"><br><br>');
+                
+        },	
+
+		
+		
+
 	/*Masters of the Colors commands*/
         blue: function(target, room, user) {
                 if (room.id === 'lobby' && this.broadcasting) return this.sendReply('This command is too spammy for lobby.')
