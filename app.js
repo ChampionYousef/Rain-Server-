@@ -430,11 +430,11 @@ fs.readFile('./config/ipbans.txt', function (err, data) {
 global.tour = require('./tour.js').tour();
 
 /*********************************************************
- * Set up Trivia
+ * Set up Bandi's Stuff
  *********************************************************/
 
 global.trivia = require('./trivia.js').trivia();
-global.roul = require('./Casino/roulette.js').roul();
-global.spam = require('./spam.js').spam.spam();
+//globalmoney = require('./money.js')
+//global.roul = require('./Casino/roulette.js').roul();
 global.stuff = require('./Stuff/stuff.js').stuff();
 global.spam = require('./Stuff/spam.js').spam();
